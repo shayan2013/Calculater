@@ -10,5 +10,9 @@ public class Calculator{
 	  int result = a+b;
 	  System.out.println(a + "+" + b + "=" + result);
 	  }
+	  else if (operation.equals("-")){
+	  int result = a-b;
+	  System.out.println(a + "-" +b+"="+ result);
+	  }
 	  }
 }
